@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         tableView.allowsSelection = true
         tableView.register(CustomCell.self, forCellReuseIdentifier: CustomCell.identifier)
         return tableView
+        
     }()
     //MARK: - Lifecycle
     override func viewDidLoad() {
